@@ -264,6 +264,20 @@ async def typewriter(typew):
                      "╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣\n"
                      "╨━━┗┛┗┛━━┗┛┗┛━━┻\n")
 
+@register(outgoing=True, pattern='^.r(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Halo`")
+    sleep(1)
+    await typew.edit("`Namaku,Rion`")
+    sleep(1)
+    await typew.edit("`Umur,15 tahun`")
+    sleep(1)
+    await typew.edit("`Asal Bandung`")
+    sleep(1)
+    await typew.edit("`Salken Kawan`")
+# Create by myself @localheart
+
 
 @register(outgoing=True, pattern='^.bernyanyi(?: |$)(.*)')
 async def typewriter(typew):

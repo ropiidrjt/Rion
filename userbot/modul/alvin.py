@@ -365,6 +365,19 @@ async def typewriter(typew):
     await typew.edit("`Bercanda`")
 # Create by myself @localheart
 
+@register ( outgoing = True , pattern = '^ .b (?: | $) (. *)' )
+async def mesin tik ( typew ): 
+        mengetik . pattern_match . kelompok ( 1 ) 
+        menunggu ketikan . edit ( " halo " ) 
+        tidur ( 1 )
+        menunggu ketikan . edit ( " Namaku, Rion:) " ) 
+        tidur ( 1 ) 
+        menunggu ketikan . edit ( " Umur 15 Tahun " ) 
+        tidur ( 1 ) 
+        menunggu ketikan . edit ( " Asal Bandung " ) 
+        tidur ( 1 )
+        menunggu ketikan . edit ( " Salken Kawan " )# Buat sendiri @Apaansikntl
+
 
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
